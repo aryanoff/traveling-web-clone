@@ -31,7 +31,7 @@
     align-content: center;
     flex-wrap: nowrap;
     justify-content: center;
-    
+
 }
 
 .navbar li {
@@ -102,7 +102,7 @@
     margin-bottom: 30px;
 }
 
-.hero-subheading p{
+.hero-subheading p {
     font-style: italic;
     font-size: 22px;
 }
@@ -132,7 +132,7 @@
     transform: translateY(-3px);
     background-color: #f0f0f0;
     box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
-    
+
 }
 
 .hero-buttons .booknow {
@@ -146,14 +146,14 @@
     border: none;
     cursor: pointer;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    
+
 }
 
 .hero-buttons .booknow:hover {
     transform: translateY(-3px);
     background-color: #ff8080;
     box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
-    
+
 }
 
 
@@ -167,4 +167,91 @@
     text-align: center;
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+/* Cards Start here */
+
+
+.popularcards {
+    display: flex;
+    border-radius: 50px;
+    margin: 0px 50px;
+    padding: 10px 40px;
+    gap: 20px;
+    justify-content: center;
+
+}
+
+.popularcards img {
+    width: 100%;
+    height: 275px;
+    border-radius: 16px;
+}
+
+/* card Images adjustment */
+.card img {
+    width: 310px;
+    height: 275px;
+    border-radius: 16px;
+}
+
+.card h3 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    margin-top: 10px;
+}
+
+.card p {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: #333;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #707070;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    font-family: 'Poppins', 'Segoe UI', Roboto, Arial, sans-serif;
+}
+
+/* Must Visit Section */
+
+.mustvisit h1{
+    font-family: 'Outfit', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-decoration: underline;
+}
+
+/* Must Visit cards Section */
+
+.mustvisitcard{
+    display: flex;
+    border-radius: 50px;
+    margin: 0px 50px;
+    padding: 10px 40px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.mustvisit .card2{
+    width: 310px;
+    height: 275px;
+    border-radius: 16px;
+}
+
+.card2 img{
+    width: 310px;
+    height: 368px;
+    border-radius: 16px;
 }
