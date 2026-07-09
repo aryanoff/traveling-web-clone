@@ -6,20 +6,18 @@
 
 /* Body adjustment Section */
 
-body {
-    overflow-x: hidden;
-}
-
 /* Top Image */
 .bgimage {
     background-image: url('./assets/woman-with-sun-glasses-in-flower-field-summer-picjumbo-com.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
+    width: 100%;
 }
 
 /* Top Nav bar */
 .navbar {
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -27,7 +25,7 @@ body {
     background-color: none;
     align-content: space-around;
     flex-wrap: nowrap;
-    flex-direction: row;
+
 }
 
 .navbar ul {
@@ -165,6 +163,7 @@ body {
 
 /* Main Section  */
 
+
 .popular-places h2 {
     font-family: 'Outfit', sans-serif;
     font-size: 28px;
@@ -224,7 +223,7 @@ body {
 
 /* Must Visit Section */
 
-.mustvisit h1{
+.mustvisit h1 {
     font-family: 'Outfit', sans-serif;
     font-size: 28px;
     font-weight: 600;
@@ -237,7 +236,7 @@ body {
 
 /* Must Visit cards Section */
 
-.mustvisitcard{
+.mustvisitcard {
     display: flex;
     border-radius: 50px;
     margin: 0px 50px;
@@ -247,14 +246,14 @@ body {
 }
 
 
-.mustvisit .card2{
+.mustvisit .card2 {
     width: 310px;
     height: 368px;
     border-radius: 16px;
     overflow: hidden;
 }
 
-.card2 img{
+.card2 img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -263,7 +262,7 @@ body {
 
 /* Banner Section Start here! */
 
-.banner{
+.banner {
     min-height: 480px;
     width: 90%;
     max-width: 1220px;
@@ -281,12 +280,12 @@ body {
     transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
-.banner:hover{
+.banner:hover {
     transform: translateY(-8px);
     box-shadow: 0 14px 30px rgba(0, 0, 0, 0.25);
 }
 
-.bannerheadding{
+.bannerheadding {
     max-width: 550px;
     color: white;
     display: flex;
@@ -294,7 +293,7 @@ body {
     align-items: flex-start;
 }
 
-.bannerheadding h1{
+.bannerheadding h1 {
     font-size: clamp(34px, 5.5vw, 72px);
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -304,7 +303,7 @@ body {
     letter-spacing: -1.5px;
 }
 
-.bannerheadding p{
+.bannerheadding p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgba(255, 255, 255, 0.9);
     font-size: clamp(16px, 2vw, 22px);
@@ -312,7 +311,7 @@ body {
     font-weight: 300;
 }
 
-.bannerbutton{
+.bannerbutton {
     padding: 12px 36px;
     font-size: 16px;
     font-weight: 600;
@@ -326,7 +325,7 @@ body {
     transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
 }
 
-.bannerbutton:hover{
+.bannerbutton:hover {
     transform: translateY(-3px);
     background-color: #f0f0f0;
     box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
@@ -334,7 +333,7 @@ body {
 
 /* Traveling with Vip's */
 
-.travelwithvip{
+.travelwithvip {
     font-family: 'Outfit', sans-serif;
     font-size: 28px;
     font-weight: 600;
@@ -429,14 +428,14 @@ body {
 
 /* Explore more Section Start Here */
 
-.exploremore{
+.exploremore {
     background-image: url(./assets/explore\ more.jpg);
     background-size: cover;
     background-position: 0px -140px;
     height: 65vh;
 }
 
-.exploremoresection{
+.exploremoresection {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -446,7 +445,7 @@ body {
     padding: 40px 20px 100px 20px;
 }
 
-.exploremoretext{
+.exploremoretext {
     font-family: 'Poppins', 'Segoe UI', Roboto, Arial, sans-serif;
     font-size: 30px;
     color: white;
@@ -455,9 +454,14 @@ body {
 
 .exploremoretext h3 {
     font-size: 42px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-.exploremorebutton{
+.exploremoretext h3 a:hover {
+    color: #ffc95d;
+}
+
+.exploremorebutton {
     padding: 10px 24px;
     border-radius: 25px;
     font-size: 15px;
@@ -468,20 +472,26 @@ body {
     border: none;
     cursor: pointer;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.4s ease, box-shadow 0.4s ease
+}
+
+.exploremorebutton:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 14px 30px rgba(0, 0, 0, 0.25);
 }
 
 /* Devloper Section start here */
 
-.devloperbanner{
+.devloperbanner {
     margin-bottom: 20px;
 }
 
-.devloperbanner img{
+.devloperbanner img {
     background-size: cover;
     height: 50vh;
 }
 
-.devlopersection{
+.devlopersection {
     font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
     font-size: 20px;
     font-weight: 800;
@@ -490,12 +500,12 @@ body {
     margin-top: 30px;
     margin-bottom: 30px;
     background-color: #fcf7f2;
-    
+
 }
 
 
 
-.devlopersection hr{
+.devlopersection hr {
     background-color: white;
     width: 70%;
     height: 5px;
@@ -552,19 +562,50 @@ footer p {
 
 /* Media Query Start here, write code before it! */
 
-@media (max-width: 600px) {
-    .popularcards {
-        padding: 10px 16px;
-    }
-
-    .card img {
-        height: 240px;
-    }
-}
-
 /* Travel with Vip */
 
+
 @media (max-width: 900px) {
+
+    .logo img {
+        margin-left: 5px;
+        width: 16vw;
+        height: 7vh;
+    }
+    
+    .navbar .signup {
+        padding: 3px 8px;
+        border-radius: 12px;
+        font-size: 10px;
+        font-weight: 300;
+
+
+    }
+
+    .popularcards {
+        display: flex;
+        border-radius: 50px;
+        margin: 0px 2px;
+        padding: 10px 40px;
+        gap: 10px;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        width: 45%;
+    }
+
+    .nav-links a {
+        font-size: 10px;
+        font-weight: 300;
+    }
+
+    .navbar li {
+        margin: 0px 5px;
+    }
+
     .travelwithvip .travelvipcard {
         grid-template-columns: 1fr;
         width: min(100% - 32px, 600px);
@@ -573,5 +614,94 @@ footer p {
 
     .vipcard img {
         height: 320px;
+    }
+
+    .mustvisitcard {
+        display: flex;
+        border-radius: 50px;
+        margin: 0px 5px;
+        padding: 5px 10px;
+        gap: 20px;
+        justify-content: center;
+        flex-direction: row;
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-basis: 30vw;
+    }
+
+    .mustvisit .card2 {
+        width: 180px;
+        height: 210px;
+        border-radius: 16px;
+        overflow: hidden;
+    }
+
+    .devloperbanner img {
+        height: 12vh;
+    }
+
+    .exploremore {
+
+        background-size: cover;
+        background-position: center;
+        height: 50vh;
+        background-repeat: no-repeat;
+    }
+
+    .exploremoresection {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 73vh;
+        padding: 40px 20px 100px 20px;
+    }
+
+    .devlopersection {
+        font-size: 10px;
+        font-weight: 400;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .socialmedia {
+        gap: 14px;
+        margin: 20px;
+    }
+
+    .socialmedia a {
+        font-size: 13px;
+    }
+
+
+}
+
+/* Popular Card Media query */
+
+@media (max-width: 600px) {
+    .logo img {
+        margin-left: 5px;
+        width: 12vw;
+        height: 8vh;
+    }
+
+    .navbar li {
+        display: flex;
+        list-style: none;
+
+    }
+
+    .popularcards {
+        padding: 10px 16px;
+    }
+
+    .card img {
+        height: 240px;
+    }
+
+    .devloperbanner img {
+        height: 12vh;
     }
 }
