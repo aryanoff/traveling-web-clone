@@ -1,0 +1,707 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body adjustment Section */
+
+/* Top Image */
+.bgimage {
+    background-image: url('./assets/woman-with-sun-glasses-in-flower-field-summer-picjumbo-com.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+/* Top Nav bar */
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px;
+    background-color: none;
+    align-content: space-around;
+    flex-wrap: nowrap;
+
+}
+
+.navbar ul {
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+}
+
+.navbar li {
+    display: flex;
+    list-style: none;
+    margin: 0 20px;
+}
+
+/* Nav Bar Links */
+
+.nav-links a {
+    font-family: 'Poppins', 'Segoe UI', Roboto, Arial, sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: color 0.3s ease;
+    font-weight: 600;
+}
+
+.nav-links a:hover {
+    color: #ffc95d;
+}
+
+/* Sign-UP Button */
+
+.navbar .signup {
+    padding: 10px 24px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #333;
+    background-color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.signup:hover {
+    transform: translateY(-3px);
+    background-color: #f0f0f0;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    margin-left: 20px;
+    width: 11vw;
+    height: 18vh;
+}
+
+/* hero Section */
+
+.herosection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    padding: 40px 20px 100px 20px;
+}
+
+.hero-heading {
+    font-family: 'Poppins', 'Segoe UI', Roboto, Arial, sans-serif;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.hero-subheading p {
+    font-style: italic;
+    font-size: 22px;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.hero-buttons .explore {
+    padding: 10px 24px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #333;
+    background-color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.hero-buttons .explore:hover {
+    transform: translateY(-3px);
+    background-color: #f0f0f0;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.hero-buttons .booknow {
+    padding: 10px 30px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #333;
+    background-color: #ffc95d;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.hero-buttons .booknow:hover {
+    transform: translateY(-3px);
+    background-color: #ff8080;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+
+/* Main Section  */
+
+
+.popular-places h2 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* Cards Start here */
+
+
+.popularcards {
+    display: flex;
+    border-radius: 50px;
+    margin: 0px 50px;
+    padding: 10px 40px;
+    gap: 20px;
+    justify-content: center;
+
+}
+
+.card {
+    width: 100%;
+}
+
+.popularcards img {
+    width: 100%;
+    height: 275px;
+    border-radius: 16px;
+}
+
+/* card Images adjustment */
+.card img {
+    width: 100%;
+    height: 275px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.card h3 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    margin-top: 10px;
+}
+
+.card p {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: #333;
+    margin-top: 10px;
+}
+
+/* Must Visit Section */
+
+.mustvisit h1 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-decoration: underline;
+}
+
+/* Must Visit cards Section */
+
+.mustvisitcard {
+    display: flex;
+    border-radius: 50px;
+    margin: 0px 50px;
+    padding: 10px 40px;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+.mustvisit .card2 {
+    width: 310px;
+    height: 368px;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.card2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+/* Banner Section Start here! */
+
+.banner {
+    min-height: 480px;
+    width: 90%;
+    max-width: 1220px;
+    margin: 80px auto;
+    border-radius: 24px;
+    overflow: hidden;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.2) 60%, transparent 100%), url(./assets/banner/kids-celebrating-indian-republic-day.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    padding: 0 60px;
+    box-shadow: 5px 10px 12px 3px rgb(0 0 0 / 50%);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.banner:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 14px 30px rgba(0, 0, 0, 0.25);
+}
+
+.bannerheadding {
+    max-width: 550px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.bannerheadding h1 {
+    font-size: clamp(34px, 5.5vw, 72px);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 0;
+    letter-spacing: -1.5px;
+}
+
+.bannerheadding p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: clamp(16px, 2vw, 22px);
+    margin-top: 15px;
+    font-weight: 300;
+}
+
+.bannerbutton {
+    padding: 12px 36px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 25px;
+    border: none;
+    background-color: white;
+    color: #222;
+    margin-top: 30px;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+}
+
+.bannerbutton:hover {
+    transform: translateY(-3px);
+    background-color: #f0f0f0;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Traveling with Vip's */
+
+.travelwithvip {
+    font-family: 'Outfit', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.travelwithvip .travelvipcard {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: min(100% - 48px, 1300px);
+    margin: 30px auto;
+    gap: 30px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 6px 7px 18px 13px rgba(0, 0, 0, 0.05);
+}
+
+.vipcard {
+    position: relative;
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.vipcard:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 14px 30px rgba(0, 0, 0, 0.25);
+}
+
+.vipcard img {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    display: block;
+}
+
+.vipcard:hover img {
+    transform: scale(1.1);
+}
+
+.vipcardtext {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.2);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 25px;
+    text-align: center;
+}
+
+.vipcard img {
+    transition: transform 0.4s ease;
+}
+
+.vipcardtext {
+    transition: background-color 0.4s ease;
+}
+
+.vipcard:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 14px 30px rgba(0, 0, 0, 0.25);
+}
+
+.vipcard:hover img {
+    transform: scale(1.1);
+}
+
+.vipcard:hover .vipcardtext {
+    background: rgba(0, 0, 0, 0.55);
+}
+
+.vipcardtext h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.vipcardtext p {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+
+/* Explore more Section Start Here */
+
+.exploremore {
+    background-image: url(./assets/explore\ more.jpg);
+    background-size: cover;
+    background-position: 0px -140px;
+    height: 65vh;
+}
+
+.exploremoresection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    padding: 40px 20px 100px 20px;
+}
+
+.exploremoretext {
+    font-family: 'Poppins', 'Segoe UI', Roboto, Arial, sans-serif;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.exploremoretext h3 {
+    font-size: 42px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.exploremoretext h3 a:hover {
+    color: #ffc95d;
+}
+
+.exploremorebutton {
+    padding: 10px 24px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #333;
+    background-color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.4s ease, box-shadow 0.4s ease
+}
+
+.exploremorebutton:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 14px 30px rgba(0, 0, 0, 0.25);
+}
+
+/* Devloper Section start here */
+
+.devloperbanner {
+    margin-bottom: 20px;
+}
+
+.devloperbanner img {
+    background-size: cover;
+    height: 50vh;
+}
+
+.devlopersection {
+    font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+    font-size: 20px;
+    font-weight: 800;
+    color: #333;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #fcf7f2;
+
+}
+
+
+
+.devlopersection hr {
+    background-color: white;
+    width: 70%;
+    height: 5px;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+/* Social Media Icon Start here */
+
+.socialmedia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+    margin: 35px 0 35px;
+}
+
+.socialmedia a {
+    color: #666;
+    font-size: 26px;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.socialmedia a:hover {
+    color: #ffc95d;
+    transform: translateY(-4px);
+}
+
+.footerline {
+    width: 250px;
+    height: 1px;
+    background-color: #ddd;
+    margin: 0 auto 35px;
+}
+
+/* Footer Start from here! */
+
+footer {
+    color: #666;
+    text-align: center;
+    padding: 0x 16px;
+    margin-top: 60px;
+    font-family: 'Poppins', 'Segoe UI', Roboto, Arial, sans-serif;
+    position: relative;
+}
+
+footer p {
+    font-size: 14px;
+    color: #777;
+}
+
+/* Media Query Start here, write code before it! */
+
+/* Travel with Vip */
+
+
+@media (max-width: 900px) {
+
+    .logo img {
+        margin-left: 5px;
+        width: 16vw;
+        height: 7vh;
+    }
+    
+    .navbar .signup {
+        padding: 3px 8px;
+        border-radius: 12px;
+        font-size: 10px;
+        font-weight: 300;
+
+
+    }
+
+    .popularcards {
+        display: flex;
+        border-radius: 50px;
+        margin: 0px 2px;
+        padding: 10px 40px;
+        gap: 10px;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        width: 45%;
+    }
+
+    .nav-links a {
+        font-size: 10px;
+        font-weight: 300;
+    }
+
+    .navbar li {
+        margin: 0px 5px;
+    }
+
+    .travelwithvip .travelvipcard {
+        grid-template-columns: 1fr;
+        width: min(100% - 32px, 600px);
+        padding: 20px;
+    }
+
+    .vipcard img {
+        height: 320px;
+    }
+
+    .mustvisitcard {
+        display: flex;
+        border-radius: 50px;
+        margin: 0px 5px;
+        padding: 5px 10px;
+        gap: 20px;
+        justify-content: center;
+        flex-direction: row;
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-basis: 30vw;
+    }
+
+    .mustvisit .card2 {
+        width: 180px;
+        height: 210px;
+        border-radius: 16px;
+        overflow: hidden;
+    }
+
+    .devloperbanner img {
+        height: 12vh;
+    }
+
+    .exploremore {
+
+        background-size: cover;
+        background-position: center;
+        height: 50vh;
+        background-repeat: no-repeat;
+    }
+
+    .exploremoresection {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 73vh;
+        padding: 40px 20px 100px 20px;
+    }
+
+    .devlopersection {
+        font-size: 10px;
+        font-weight: 400;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .socialmedia {
+        gap: 14px;
+        margin: 20px;
+    }
+
+    .socialmedia a {
+        font-size: 13px;
+    }
+
+
+}
+
+/* Popular Card Media query */
+
+@media (max-width: 600px) {
+    .logo img {
+        margin-left: 5px;
+        width: 12vw;
+        height: 8vh;
+    }
+
+    .navbar li {
+        display: flex;
+        list-style: none;
+
+    }
+
+    .popularcards {
+        padding: 10px 16px;
+    }
+
+    .card img {
+        height: 240px;
+    }
+
+    .devloperbanner img {
+        height: 12vh;
+    }
+}
